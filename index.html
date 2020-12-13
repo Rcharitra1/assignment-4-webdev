@@ -11,7 +11,7 @@
     <title>Assignment 4</title>
   </head>
   <body>
-    <header class="container fixed-top">
+    <header class="container">
       <h1 class="sr-only">Trend</h1>
       <nav class="navbar navbar-expand-xl navbar-light bg-white row">
     <a class="navbar-brand" href="#">Trend</a>
@@ -43,7 +43,7 @@
   </div>
 </nav>
     </header>
-    <main class="pt-5 mt-2">
+    <main>
       <div class="container">
         <div class="row">
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -275,9 +275,40 @@
       </section>
       </div>
 
+      <div class="container">
+        <section id="contact" class="py-5">
+          <h2 class="text-success text-center pt-3"><u>CONTACT US</u></h2>
+          <div class="row">
+            <form class="col-12 col-lg-6">
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" name="message"></textarea>
+            </div>
+            <div class="form-control col-md-2 border-white p">
+              <button type="submit" class="btn btn-success form-control">Send</button>
+            </div>
+
+          </form>
+
+          </div>
+        </section>
+      </div>
 
     </main>
-    <footer>
+    <footer class="bg-secondary">
+      <div class="container text-white py-3">
+        <p>Copyright &copy; 2020</p>
+        <p>For Educational Purposes Only</p>
+      </div>
 
     </footer>
 
