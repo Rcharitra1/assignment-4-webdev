@@ -1,4 +1,4 @@
 # assignment-4-webdev
 
 
-link to https://app.netlify.com/sites/assignment-4-webdev/overview
+link to https://assignment-4-webdev.netlify.app/
